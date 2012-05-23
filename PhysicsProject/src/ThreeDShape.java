@@ -7,5 +7,4 @@ public abstract class ThreeDShape extends Shape
 	public abstract double getSArea();
 	public abstract double getVolume();
 	public abstract double getDensity();
-	
 }
