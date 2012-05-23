@@ -14,15 +14,15 @@ public class RectPrism extends ThreeDShape
 	}
 	public double getVolume()
 	{
-		return 7.7;//TODO add actual method
+		return height*width*depth;
 	}
 	public double getSArea()
 	{
-		return 7.7;//TODO add actual method
+		return 2*depth*width+2*depth*height+2*height*width;
 	}
 	public double getDensity()
 	{
-		return 7.7;//TODO add actual method
+		return getVolume()/getMass();
 	}
 	
 }
