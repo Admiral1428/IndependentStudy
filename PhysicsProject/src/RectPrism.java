@@ -1,4 +1,4 @@
-/*
+
 public class RectPrism extends ThreeDShape
 {
 	double height;
@@ -12,5 +12,17 @@ public class RectPrism extends ThreeDShape
 		this.width=width;
 		this.depth=depth;
 	}
+	public double getVolume()
+	{
+		return 7.7;//TODO add actual method
+	}
+	public double getSArea()
+	{
+		return 7.7;//TODO add actual method
+	}
+	public double getDensity()
+	{
+		return 7.7;//TODO add actual method
+	}
+	
 }
-*/
